@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.header {
+  text-align: right;
+  display: grid;
+  background-color: black;
+  height: 100px;
+  width: 400px;
+  font-size: 37px;
+  grid-area: header;
+  border: 1px solid black;
+  color: white;
+  outline: none;
+}
+
+.one {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: one;
+}
+
+.c {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 200px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: c;
+}
+.two {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: two;
+}
+.zero {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 300px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: zero;
+}
+.three {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: three;
+}
+.divide {
+  display: grid;
+  background-color: #e0974d;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  color: white;
+  border: 1px solid black;
+  grid-area: divide;
+}
+.four {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: four;
+}
+.five {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: five;
+}
+
+.six {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: six;
+}
+.seven {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: seven;
+}
+.eight {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: eight;
+}
+.nine {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: nine;
+}
+.img {
+  display: grid;
+  background-color: #d8d9db;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  border: 1px solid black;
+  grid-area: img;
+}
+.plus {
+  display: grid;
+  background-color: #e0974d;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  color: white;
+  border: 1px solid black;
+  grid-area: plus;
+}
+.minus {
+  display: grid;
+  background-color: #e0974d;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  color: white;
+  border: 1px solid black;
+  grid-area: minus;
+}
+.multiply {
+  display: grid;
+  background-color: #e0974d;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  color: white;
+  border: 1px solid black;
+  grid-area: multiply;
+}
+.equal {
+  display: grid;
+  background-color: #e0974d;
+  height: 100px;
+  width: 100px;
+  font-size: 35px;
+  place-items: center;
+  color: white;
+  border: 1px solid black;
+  grid-area: equal;
+}
+.button-numerical:hover {
+  background-color: #e6e7ea;
+}
+.mathematical:hover {
+  background-color: #eaad6e;
+}
+.button-numerical:active {
+  background-color: #bfc3c5;
+}
+.mathematical:active {
+  background-color: #d89148;
+}
+.img-button:hover {
+  background-color: #e6e7ea;
+}
+.img-button:active {
+  background-color: #bfc3c5;
+}
+.c-button:hover {
+  background-color: #e6e7ea;
+}
+.c-button:active {
+  background-color: #bfc3c5;
+}
+.grid {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "c c img divide"
+    "seven eight nine multiply"
+    "four five six minus"
+    "one two three plus"
+    "zero zero zero equal";
+  grid-template-columns: repeat(4, 100px);
+}
