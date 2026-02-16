@@ -7,14 +7,14 @@ It is a simple calculator application that performs basic arithmetic operations 
 The main goal of this project was to learn JavaScript fundamentals and understand how JavaScript interacts with HTML elements and user input.
 
 ✨ Features
-    Basic arithmetic operations:
+    ✅ Basic arithmetic operations:
         Addition (+)
         Subtraction (−)
         Multiplication (×)
         Division (÷)
-    Clear (C) button
-    Backspace (delete last input)
-    Real‑time display update
+    ✅ Clear (C) button
+    ✅ Backspace (delete last input)
+    ✅ Real‑time display update
     🛠️ Built With
     HTML – structure
     CSS – styling and layout
